@@ -1,0 +1,16 @@
+<template name='getLongUrl'>
+	<body>
+		<form id="inputForm">
+			<label>Long URL:</label>
+			<input type="text" name="longUrl" id="longUrl">
+			<button type="submit"> Get Short URL </button>
+
+		</form>
+		<a href="" id="shortUrl">ur ShortUrl will apear here</a>
+
+	</body>
+</template>
+
+<template name="openUrl">
+	<iframe width="560" height="315" src={{getlong}} frameborder="0"></iframe>
+</template>
